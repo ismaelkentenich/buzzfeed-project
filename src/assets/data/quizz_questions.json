@@ -1,55 +1,166 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Qual tipo de programador você seria?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual área da programação mais te interessa?",
+      "options": [
+        {"id": "a", "name": "Frontend (desenvolvimento de interfaces de usuário)", "alias": "A"},
+        {"id": "b", "name": "Backend (desenvolvimento do lado do servidor)", "alias": "B"},
+        {"id": "c", "name": "Mobile (desenvolvimento de aplicativos para dispositivos móveis)", "alias": "C"},
+        {"id": "d", "name": "Data Science (análise e interpretação de dados)", "alias": "A"},
+        {"id": "e", "name": "Segurança (proteção de sistemas contra ameaças)", "alias": "B"}
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Qual linguagem de programação você prefere?",
+      "options": [
+        {"id": "a", "name": "JavaScript", "alias": "A"},
+        {"id": "b", "name": "Python", "alias": "B"},
+        {"id": "c", "name": "Swift", "alias": "C"},
+        {"id": "d", "name": "SQL", "alias": "A"},
+        {"id": "e", "name": "C#", "alias": "B"}
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Como você aborda a resolução de problemas complexos?",
+      "options": [
+        {"id": "a", "name": "Busco soluções criativas e inovadoras", "alias": "A"},
+        {"id": "b", "name": "Utilizo uma abordagem analítica e estruturada", "alias": "B"},
+        {"id": "c", "name": "Priorizo a simplicidade e eficiência", "alias": "C"},
+        {"id": "d", "name": "Busco padrões e tendências nos dados", "alias": "A"},
+        {"id": "e", "name": "Adoto medidas preventivas para evitar problemas", "alias": "B"}
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Qual é a sua preferência ao trabalhar em equipe?",
+      "options": [
+        {"id": "a", "name": "Gosto de liderar e tomar decisões", "alias": "A"},
+        {"id": "b", "name": "Prefiro colaborar e contribuir com ideias", "alias": "B"},
+        {"id": "c", "name": "Valorizo a comunicação e a coesão do grupo", "alias": "C"},
+        {"id": "d", "name": "Gosto de trabalhar de forma independente", "alias": "A"},
+        {"id": "e", "name": "Prefiro me concentrar em minhas tarefas sem muitas interrupções", "alias": "B"}
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Como você lida com prazos apertados?",
+      "options": [
+        {"id": "a", "name": "Trabalho sob pressão e me concentro nas prioridades", "alias": "A"},
+        {"id": "b", "name": "Planejo minhas atividades e gerencio meu tempo de forma eficiente", "alias": "B"},
+        {"id": "c", "name": "Busco apoio e recursos adicionais para cumprir os prazos", "alias": "C"},
+        {"id": "d", "name": "Adoto uma abordagem ágil para lidar com imprevistos", "alias": "A"},
+        {"id": "e", "name": "Priorizo a qualidade do trabalho e ajusto os prazos conforme necessário", "alias": "B"}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Qual é a sua atitude em relação ao aprendizado contínuo?",
+      "options": [
+        {"id": "a", "name": "Estou sempre em busca de novas tecnologias e habilidades", "alias": "A"},
+        {"id": "b", "name": "Aprendo constantemente e busco me aprimorar na minha área", "alias": "B"},
+        {"id": "c", "name": "Procuro me manter atualizado, mas foco mais no meu trabalho atual", "alias": "C"},
+        {"id": "d", "name": "Valorizo a experiência prática e o aprendizado através dos desafios", "alias": "A"},
+        {"id": "e", "name": "Prefiro me concentrar em habilidades específicas relevantes para meu trabalho", "alias": "B"}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Qual é a sua abordagem ao lidar com feedback e críticas?",
+      "options": [
+        {"id": "a", "name": "Valorizo o feedback construtivo e busco melhorar com ele", "alias": "A"},
+        {"id": "b", "name": "Recebo feedback de forma objetiva e busco soluções para os pontos fracos", "alias": "B"},
+        {"id": "c", "name": "Considero críticas como oportunidades de crescimento e aprendizado", "alias": "C"},
+        {"id": "d", "name": "Prefiro receber feedback de forma discreta e analisar as sugestões", "alias": "A"},
+        {"id": "e", "name": "Busco feedback apenas quando necessário para melhorar meu desempenho", "alias": "B"}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Como você reage diante de desafios e obstáculos?",
+      "options": [
+        {"id": "a", "name": "Encaro os desafios de frente e busco soluções criativas", "alias": "A"},
+        {"id": "b", "name": "Abordo os problemas de forma sistemática e organizada", "alias": "B"},
+        {"id": "c", "name": "Busco apoio e colaboração para superar os obstáculos", "alias": "C"},
+        {"id": "d", "name":
+
+ "Encaro os desafios como oportunidades de aprendizado e crescimento", "alias": "A"},
+        {"id": "e", "name": "Prefiro evitar conflitos e buscar soluções alternativas", "alias": "B"}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Qual é a sua abordagem ao planejar e executar projetos?",
+      "options": [
+        {"id": "a", "name": "Adoto uma abordagem flexível e iterativa para ajustar conforme necessário", "alias": "A"},
+        {"id": "b", "name": "Planejo minuciosamente e executo de acordo com o plano estabelecido", "alias": "B"},
+        {"id": "c", "name": "Procuro equilibrar planejamento e execução de forma eficiente", "alias": "C"},
+        {"id": "d", "name": "Prefiro adaptar o plano conforme as circunstâncias e necessidades", "alias": "A"},
+        {"id": "e", "name": "Gosto de seguir um plano definido e buscar soluções dentro dos parâmetros estabelecidos", "alias": "B"}
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Como você lida com situações de alta pressão e estresse?",
+      "options": [
+        {"id": "a", "name": "Mantenho a calma e busco soluções eficazes para resolver os problemas", "alias": "A"},
+        {"id": "b", "name": "Gerencio o estresse de forma saudável e busco apoio quando necessário", "alias": "B"},
+        {"id": "c", "name": "Procuro manter o equilíbrio e a concentração para lidar com as demandas", "alias": "C"},
+        {"id": "d", "name": "Busco formas de reduzir o estresse e manter o foco nas prioridades", "alias": "A"},
+        {"id": "e", "name": "Prefiro evitar situações estressantes e buscar soluções alternativas", "alias": "B"}
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Qual é a sua visão em relação à inovação e novas tecnologias?",
+      "options": [
+        {"id": "a", "name": "Acredito na constante evolução e no potencial transformador da tecnologia", "alias": "A"},
+        {"id": "b", "name": "Valorizo a inovação, mas prefiro me concentrar no que é comprovado e eficaz", "alias": "B"},
+        {"id": "c", "name": "Procuro equilibrar a inovação com a estabilidade e segurança", "alias": "C"},
+        {"id": "d", "name": "Adoto tecnologias emergentes quando vejo benefícios claros e comprovados", "alias": "A"},
+        {"id": "e", "name": "Prefiro me manter atualizado, mas com foco em tecnologias consolidadas e testadas", "alias": "B"}
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Como você se posiciona em relação ao trabalho em equipe?",
+      "options": [
+        {"id": "a", "name": "Gosto de liderar e contribuir com ideias inovadoras", "alias": "A"},
+        {"id": "b", "name": "Prefiro colaborar e trabalhar em equipe para alcançar os objetivos", "alias": "B"},
+        {"id": "c", "name": "Procuro equilibrar liderança com respeito às contribuições do grupo", "alias": "C"},
+        {"id": "d", "name": "Gosto de trabalhar de forma independente e buscar soluções por conta própria", "alias": "A"},
+        {"id": "e", "name": "Prefiro me concentrar em minhas tarefas sem muita interação com os outros", "alias": "B"}
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Como você se mantém atualizado sobre novas tendências e tecnologias?",
+      "options": [
+        {"id": "a", "name": "Participo de comunidades, eventos e cursos para aprender e compartilhar conhecimento", "alias": "A"},
+        {"id": "b", "name": "Leio livros, artigos e blogs relevantes para minha área de atuação", "alias": "B"},
+        {"id": "c", "name": "Procuro me manter atualizado, mas com foco nas necessidades do meu trabalho", "alias": "C"},
+        {"id": "d", "name": "Experimento com novas tecnologias e soluções em projetos pessoais", "alias": "A"},
+        {"id": "e", "name": "Prefiro aprender com a experiência prática e aplicar conhecimentos em situações reais", "alias": "B"}
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Qual é a sua motivação ao programar?",
+      "options": [
+        {"id": "a", "name": "Buscar soluções inovadoras e impactantes para problemas complexos", "alias": "A"},
+        {"id": "b", "name": "Criar produtos e experiências que melhorem a vida das pessoas", "alias": "B"},
+        {"id": "c", "name": "Contribuir para projetos significativos e de grande impacto", "alias": "C"},
+        {"id": "d", "name": "Explorar novas tecnologias e desafios para desenvolver habilidades", "alias": "A"},
+        {"id": "e", "name": "Alcançar objetivos profissionais e pessoais através da programação", "alias": "B"}
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Com sua mentalidade voltada para inovação e soluções criativas, você seria um Desenvolvedor Full Stack, capaz de lidar com diversos aspectos do desenvolvimento de software!",
+    "B": "Com sua habilidade de gerenciar projetos de forma eficiente e focada nos resultados, você seria um Gerente de Projetos de TI, coordenando equipes e entregando soluções de qualidade!",
+    "C": "Com sua expertise em análise de dados e preocupação com a eficiência dos sistemas, você seria um Cientista de Dados, extraindo insights valiosos e tomando decisões estratégicas!"
   }
 }

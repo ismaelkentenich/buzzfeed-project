@@ -12,6 +12,7 @@
   align-items: center;
   margin-bottom: 15px;
   margin-top: 30px;
+  font-size: 17px;
 }
 
 .quizz-logo > h3 {
@@ -27,7 +28,7 @@
   border-radius: 8px;
   background-color: #654ED2;
   width: 100%;
-  height: 200px;
+  height: 150px;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 25px;
@@ -45,7 +46,7 @@
   background-color: transparent;
   border-radius: 8px;
   border: 1px solid #18Ab29;
-  width: 50%;
+  width: 49%;
   display: inline-block;
   cursor: pointer;
   color: #FFFFFF;
@@ -54,6 +55,7 @@
   padding: 16px 31px;
   /* text-decoration: none; */
   text-shadow: 0px 1px 0px #2f6627;
+  margin: 2px;
 }
 
 .btn-option:hover{
@@ -79,4 +81,8 @@
 
 .quizz-results > h1{
   margin-bottom: 15px;
+}
+
+.quizz-results > p{
+  width: 65%;
 }

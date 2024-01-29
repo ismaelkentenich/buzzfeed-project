@@ -2,6 +2,10 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    // for the quizz
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    //  
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,

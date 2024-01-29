@@ -7,7 +7,7 @@ Project developed during the "Desenvolvimento Frontend com Angular" Bootcamp by 
 
 ## Screenshot
   <p align="center">
-            <img src="/src/assets/images/print.gif" alt="Buzzfeed-style quizz" style="width: 45%;">
+            <img src="/src/assets/images/print.gif" alt="Buzzfeed-style quizz">
   </p>
 
 

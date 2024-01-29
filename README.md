@@ -1,27 +1,33 @@
-# BuzzfeedProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+# Angular Buzzfeed-style Test Website
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Project developed during the "Desenvolvimento Frontend com Angular" Bootcamp by DiO. This project is a web application developed using Angular that allows users to take Buzzfeed-style personality tests.
 
-## Code scaffolding
+## Screenshot
+  <p align="center">
+            <img src="/src/assets/images/print.gif" alt="Buzzfeed-style quizz" style="width: 45%;">
+  </p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Technologies Used
+- **Angular**: The frontend of the website is built using Angular, a powerful TypeScript-based framework for building single-page applications.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **JSON Data**: Quiz content and questions are stored in JSON format, allowing for easy management and customization.
 
-## Running unit tests
+- **HTML/CSS/JavaScript**: Standard web technologies are used for building the user interface and adding interactivity.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contributing
 
-## Further help
+Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## References
+[DiO - Bootcamp: Desenvolvimento Frontend com Angular ](https://www.dio.me/bootcamp/coding-future-banco-pan-desenvolvimento-frontend-com-angular)
